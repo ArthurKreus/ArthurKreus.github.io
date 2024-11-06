@@ -1,0 +1,9 @@
+.menuitem > li {
+    display: inline-block;
+    width: 150px;
+}
+
+.menuitem > li > a {
+    color: red;
+    text-decoration: none;
+}
