@@ -1,0 +1,46 @@
+.calendar {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+
+.calendar caption {
+    background-color: rgb(170,170,200);
+    font-size: 24px;
+    padding: 10px;
+}
+
+.calendar th {
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+    padding: 10px;
+    width: 40px;
+}
+
+.calendar td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar td:first-child:not(.other-month),
+.calendar td:last-child:not(.other-month) {
+    background-color: rgb(255, 220, 220);
+}
+
+.calendar .other-month {
+    background-color: #ccc;
+}
+
+.calendar .holiday {
+    background-color: rgb(250,120,120);
+}
+
+.calendar a {
+    color: blue;
+    text-decoration: none;
+}
+
+.calendar a:hover {
+    text-decoration: underline;
+}

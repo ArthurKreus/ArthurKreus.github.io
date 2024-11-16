@@ -1,0 +1,30 @@
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    background-color: white;
+}
+
+thead {
+    background-color: #03153e;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.alt td.onbekend {
+    background-color: red;
+}
+td.onbekend {
+    background-color: red;
+}

@@ -1,0 +1,38 @@
+body > section > header {
+    margin-bottom: 5px;
+    color: white;
+    background-image: url('../Images/header.jpg');
+    background-size: cover;
+    height: 100px;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+nav a {
+    color: #27f827;
+    font-weight: bold;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+article > header > h1 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+article {
+    background-color: lightgrey;
+    margin: 0 0 5px 0; /* Add margin between articles */
+    padding: 15px;
+}

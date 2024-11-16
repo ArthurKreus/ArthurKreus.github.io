@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 3</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+</head>
+<body>
+<section id="friends">
+  <h2>Vrienden</h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Voornaam</th>
+      <th>Familienaam</th>
+      <th>Postcode</th>
+      <th>Leeftijd</th>
+      <th>Email</th>
+      <th>Hobby</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="alt">
+      <td>Jan</td>
+      <td>Janssen</td>
+      <td>8500</td>
+      <td>25</td>
+      <td>jan.janssen@gmail.com</td>
+      <td>Voetbal</td>
+    </tr>
+    <tr>
+      <td>Emma</td>
+      <td>Peeters</td>
+      <td class="onbekend"></td>
+      <td class="onbekend"></td>
+      <td>emma.peeters@gmail.com</td>
+      <td>Schilderen</td>
+    </tr>
+    <tr class="alt">
+      <td>Lucas</td>
+      <td>Martens</td>
+      <td>2000</td>
+      <td>22</td>
+      <td>lucas.martens@outlook.com</td>
+      <td>Gitaar spelen</td>
+    </tr>
+    <tr>
+      <td>Sophie</td>
+      <td>Vermeulen</td>
+      <td>3000</td>
+      <td>27</td>
+      <td>sophie.vermeulen@hotmail.com</td>
+      <td>Fotografie</td>
+    </tr>
+    <tr class="alt">
+      <td>Thomas</td>
+      <td>De Smet</td>
+      <td class="onbekend"></td>
+      <td class="onbekend"></td>
+      <td>thomas.desmet@gmail.com</td>
+      <td>Fietsen</td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+</body>
+</html>
+
+<p> Het heeft geen effect op een &lt;td&gt; in een rij met de class alt maar wel in een rij zonder &lt;alt&gt;, heeft te maken met specificiteit in CSS. CSS-regels die meer specifiek zijn, overschrijven regels die minder specifiek zijn.</p>
+<p>De regel tbody tr:nth-child(even) is meer specifiek dan .alt td.onbekend.</p>
