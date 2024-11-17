@@ -1,38 +1,49 @@
-body > section > header {
-    margin-bottom: 5px;
-    color: white;
-    background-image: url('../Images/header.jpg');
-    background-size: cover;
-    height: 100px;
-    font-size: 2.5em;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+body {
+    font-family: Arial, sans-serif;
+    width: 95%;
+    margin: auto;
 }
 
+section > header {
+    height: 200px;
+    background-image: url("../Images/header.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
 
+
+}
+section > header h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
 nav {
     background-color: #333;
     padding: 10px 0;
-    text-align: left;
-    margin-bottom: 5px;
 }
-
 
 nav a {
-    color: #27f827;
-    font-weight: bold;
-    padding: 0 15px;
+    color: greenyellow;
     text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
 }
+article {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgrey;
+    width:97%;
 
-article > header > h1 {
-    font-size: 2em;
+
+}
+article > header h1{
+    font-size: 40px;
     text-decoration: underline;
 }
-
-article {
-    background-color: lightgrey;
-    margin: 0 0 5px 0; /* Add margin between articles */
-    padding: 15px;
+footer {
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
 }
