@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+section {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}

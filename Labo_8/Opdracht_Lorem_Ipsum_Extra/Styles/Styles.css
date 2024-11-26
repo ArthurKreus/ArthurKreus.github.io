@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+section {
+    float: left;
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}

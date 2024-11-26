@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 3</title>
+</head>
+<body>
+<h1>Opdracht 3</h1>
+<h2>Waarom staat de tekst in de blokken hoizontaal gecentreerd?</h2>
+<p>Tekst staat gecentreerd door de parameter div {text-align: center; }</p>
+<h2>Waarom heeft de property vertical-align:center geen effect?</h2>
+<p>Deze property werkt alleen op inline-block, inline en de  tabel-elementen</p>
+<h2>Wat doet vertical-align dan wel?</h2>
+<p>Het bepaalt de uitling van de inline-elementen tegenover de andere inline-elementen</p>
+<h2>Wat is de ‘simpele’ manier om een één enkele regel tekst verticaal te centreren? </h2>
+<p>Dit kan je doen met
+.area {
+        line-height: 100px
+        text-align: center;
+}</p>
+<h2>Welke truc wordt vaak gebruikt om meerdere regels verticaal te centreren?</h2>
+<p>Met het volgende element:
+    .area {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    }</p>
+<h2> Waarom krijgt de regel voor class 'tall' voorrang?</h2>
+<p>Tall is speciefker dus deze krijgt dan meer voorang.</p>
+</body>
+</html>

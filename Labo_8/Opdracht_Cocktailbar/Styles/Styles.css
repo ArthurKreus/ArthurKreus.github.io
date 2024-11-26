@@ -1,0 +1,95 @@
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.main-content, .weekly-specials {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    width: 70%;
+    background-color: #ffffff;
+}
+
+.weekly-specials {
+    width: 30%;
+    border: 1px solid #000080;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    color: cadetblue;
+}
+h2 {
+    color: cadetblue;
+}
+.weekly-specials h2 {
+    background-image: url("../images/cocktail.gif");
+    background-position: top center;
+    background-size: 50px 50px;
+    padding-top: 50px;
+    background-repeat: repeat-x;
+    color: black;
+}
+.weekly-specials h3 {
+    color:red;
+}
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50%;
+}
+
+p#guarantee {
+    margin: 30px;
+    padding-top: 25px;
+    background-color: #a7cece;
+    border: 1px dotted white;
+    background-image: url("../images/background.gif");
+    background-position: left center;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+ul li {
+    font-style: normal;
+}
+
+ul li span.italic {
+    font-style: italic;
+}
+
+ul li span.bold {
+    font-weight: bold;
+}

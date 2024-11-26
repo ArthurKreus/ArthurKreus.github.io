@@ -1,0 +1,9 @@
+.floaty {
+    float: left;
+    background-color: green;
+    margin-right: 5px;
+}
+
+.break {
+    background-color: blue;
+}
