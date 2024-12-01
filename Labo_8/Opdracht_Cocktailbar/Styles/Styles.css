@@ -30,12 +30,6 @@ header img {
     background-color: #ffffff;
 }
 
-.weekly-specials {
-    width: 30%;
-    border: 1px solid #000080;
-    background-color: #ffffff;
-    text-align: center;
-}
 
 h1 {
     color: cadetblue;
@@ -43,17 +37,7 @@ h1 {
 h2 {
     color: cadetblue;
 }
-.weekly-specials h2 {
-    background-image: url("../images/cocktail.gif");
-    background-position: top center;
-    background-size: 50px 50px;
-    padding-top: 50px;
-    background-repeat: repeat-x;
-    color: black;
-}
-.weekly-specials h3 {
-    color:red;
-}
+
 a {
     color: #000000;
     text-decoration: underline;
@@ -92,4 +76,26 @@ ul li span.italic {
 
 ul li span.bold {
     font-weight: bold;
+}
+
+.weekly-specials {
+    width: 30%;
+    border: 1px solid #000080;
+    background-color: #ffffff;
+    background-image: url("../images/cocktail.gif");
+    text-align: center;
+    margin: 0;
+    position: relative;
+    background-repeat: repeat-x;
+}
+
+.weekly-specials h2 {
+    position: relative;
+    color: black;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.weekly-specials h3 {
+    color: red;
 }
